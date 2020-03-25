@@ -463,17 +463,16 @@ main.post {
   overflow: hidden;
   border-radius: 50%;
   margin-right: 10px;
-  margin-bottom: 20px;
 }
 
-div.post-footer .title, div.post-footer .date, div.post-footer .comments, div.post-footer .views {
+.post-footer .title, .post-footer .date, .post-footer .comments, .post-footer .views {
   font-size: 0.8em;
   font-weight: 400;
   padding: 0px;
   color: #999;
 }
 
-div.post-footer .date::after, div.post-footer .views::after {
+.post-footer .date::after, .post-footer .views::after, .post-footer .title::after {
     content: '|';
     display: inline-block;
     margin: 0 10px;
@@ -576,6 +575,12 @@ blockquote.blockquote {
   margin-bottom: 25px;
 }
 
+.post-comments header span {
+  margin-left: 5px;
+  color: #999;
+  font-size: 0.85em;
+}
+
 .post-comments .image {
   margin-right: 15px;
   max-width: 40px;
@@ -633,6 +638,10 @@ blockquote.blockquote {
   margin: 40px 0;
 }
 
+.widget header {
+  margin-bottom: 30px;
+}
+
 /* SEARCH WIDGET */
 
 .widget.search header{
@@ -679,3 +688,84 @@ blockquote.blockquote {
 }
 
 /* CATEGORIES WIDGET */
+.widget.categories {
+  padding: 20px;
+}
+
+.widget.categories header {
+  margin-bottom: 25px;
+}
+
+.widget.categories .item {
+  padding: 15px;
+}
+
+.widget.categories .item:nth-of-type(odd) {
+  background-color: #FAFAFA;
+}
+
+.widget.categories .item span {
+  color: #777;
+  font-weight: 600;
+}
+
+.widget.categories .item a {
+  color: #777;
+  font-weight: 700;
+}
+
+/* WIDGET TAGS */
+.widget.tags .tag {
+  color: #777;
+  font-weight: 700;
+  padding: 5px 25px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.widget.tags li {
+  margin-bottom: 15px;
+}
+
+.widget.tags {
+  margin-bottom: 100px;
+}
+
+/* BLOG.HTML */
+.posts-listing {
+  padding: 50px 0 100px;
+}
+
+.posts-listing .post {
+  margin-bottom: 30px;
+}
+
+/* PAGINATION */
+.pagination-template {
+  margin-top: 40px;
+}
+
+.pagination-template li.page-item {
+  margin: 0 5px;
+}
+
+.pagination-template .page-link {
+  border: none;
+  color: #777;
+  font-size: 1.1em;
+  border-radius: 100%;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.pagination-template .page-link:hover {
+  background: #eee;
+}
+
+.pagination-template .page-link.active {
+  background: #eee;
+}
