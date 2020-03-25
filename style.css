@@ -526,3 +526,156 @@ blockquote.blockquote {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.posts-nav {
+  margin-top: 50px;
+}
+
+.posts-nav a {
+  padding: 20px;
+}
+
+.blog-post .icon{
+  min-width: 35px;
+  max-width: 35px;
+  height: 35px;
+  line-height: 32px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  color: #aaa;
+  font-size: 1.5em;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.blog-post .posts-nav .text {
+  padding: 0 20px;
+}
+
+.blog-post .posts-nav .text .text-primary {
+  color: #999 !important;
+}
+
+.blog-post .posts-nav .text h6 {
+  color: #777;
+}
+
+.blog-post .posts-nav a {
+  color: inherit;
+  padding: 10px 20px;
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+}
+
+/* POST COMMENTS */
+.post-comments {
+  margin-top: 50px;
+}
+
+.post-comments header {
+  margin-bottom: 25px;
+}
+
+.post-comments .image {
+  margin-right: 15px;
+  max-width: 40px;
+}
+
+.post-comments .comment-body {
+  margin-left: 55px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.blog-post .post-comments strong {
+  display: block;
+  color: #555;
+}
+
+.post-comments .date {
+  font-size: 0.85em;
+}
+
+/* ADD COMMENT */
+.blog-post .add-comment {
+  margin-top: 50px;
+}
+
+.add-comment header {
+  margin-bottom: 30px;
+}
+
+.add-comment input, .add-comment textarea {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 0;
+  color: #eee;
+}
+
+.add-comment textarea {
+  min-height: 150px;
+}
+
+.add-comment .btn {
+  border-radius: 0;
+  padding: 5px 15px;
+}
+
+/* WIDGETS */
+
+.widget {
+  padding: 20px;
+  border: 1px solid #eee;
+  margin: 40px 0;
+}
+
+/* SEARCH WIDGET */
+
+.widget.search header{
+  margin-bottom: 30px;
+}
+
+.widget.search .search-form input{
+  border: none;
+  width: 80%;
+}
+
+.widget.search .search-form .form-group {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+/* LATEST POSTS WIDGET */
+.widget.latest-posts .image{
+  max-width: 75px;
+  margin-right: 15px;
+}
+
+.widget.latest-posts .item {
+  margin-bottom: 20px;
+}
+
+.widget.latest-posts .title strong{
+  color: #555;
+}
+
+.widget.latest-posts .views, .widget.latest-posts .comments {
+  font-size: 0.8em;
+  color: #bbb;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.widget.latest-posts .views::after {
+  content: '|';
+  display: inline-block;
+  margin: 0 7px;
+  font-size: 0.9em;
+  color: #ccc;
+}
+
+/* CATEGORIES WIDGET */
